@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.header-logo{
+    height: 100%;
+    width: auto;
+}
+header{
+    height: 80px;
+    width: 200px;
+    margin: auto;
+}
+.link-contents{
+    width: 300px;
+    height: 100px;
+    margin: 16px auto;
+    border: 1px #333 solid;
+    border-radius: 16px ;
+    text-align: center;
+}
+
+.link-txt{
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px; 
+}
+
+footer{
+    width: fit-content;
+    margin: auto;
+}

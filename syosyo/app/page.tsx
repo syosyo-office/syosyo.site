@@ -7,6 +7,7 @@ export default function Home() {
     <main className="page-top">
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://syosyo.jp" target="_blank" rel="noopener noreferrer">しょしょのサイト(syosyo.jp)</a>
+        <p>ドメインだけ保有中。何もまだ開発してません。</p>
       </div>
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://scalloped-chartreuse-5bd.notion.site/219c75973b4880e68b22d787fa2b7ca3?source=copy_link" target="_blank" rel="noopener noreferrer">しょしょの制作過程(notion)</a>

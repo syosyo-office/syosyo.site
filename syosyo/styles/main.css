@@ -12,8 +12,8 @@ header{
 .link-contents{
     width: 300px;
     height: 100px;
-    margin: 16px auto;
-    border: 1px #333 solid;
+    margin: 8px auto;
+    border: 1px #bbb solid;
     border-radius: 16px ;
     text-align: center;
 }
@@ -22,9 +22,32 @@ header{
     width: fit-content;
     height: fit-content;
     font-size: 12px; 
+    font-weight: bold;
 }
 
 footer{
     width: fit-content;
     margin: auto;
+}
+
+/* 初期状態 */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* 表示状態 */
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* body フェードイン（全体） */
+body {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+body.loaded {
+  opacity: 1;
 }

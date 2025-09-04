@@ -51,3 +51,7 @@ body {
 body.loaded {
   opacity: 1;
 }
+
+p{
+  font-size: 10px;
+}

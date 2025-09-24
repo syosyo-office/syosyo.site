@@ -11,9 +11,11 @@ export default function Home() {
       </div>
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://scalloped-chartreuse-5bd.notion.site/219c75973b4880e68b22d787fa2b7ca3?source=copy_link" target="_blank" rel="noopener noreferrer">しょしょの制作過程(notion)</a>
+        
       </div>
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://syosyo.info" target="_blank" rel="noopener noreferrer">しょしょのリンクページ(当サイト)</a>
+        <a className="link-img" href="https://syosyo.info"><div></div></a>
       </div>
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://note.com/syosyo_" target="_blank" rel="noopener noreferrer">しょしょのnote</a>

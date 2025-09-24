@@ -55,3 +55,7 @@ body.loaded {
 p{
   font-size: 10px;
 }
+.link-img div{
+  background-image: url('/img/syosyo.info.png');
+
+}

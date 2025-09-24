@@ -11,10 +11,8 @@ header{
 }
 .link-contents{
     width: 300px;
-    height: 100px;
+    height: auto;
     margin: 8px auto;
-    border: 1px #bbb solid;
-    border-radius: 16px ;
     text-align: center;
 }
 
@@ -55,7 +53,8 @@ body.loaded {
 p{
   font-size: 10px;
 }
-.link-img div{
-  background-image: url('/img/syosyo.info.png');
-
+.syosyo-info{
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
 }

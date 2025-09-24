@@ -14,8 +14,16 @@ export default function Home() {
         
       </div>
       <div className="link-contents fade-in">
-        <a className="link-txt" href="https://syosyo.info" target="_blank" rel="noopener noreferrer">しょしょのリンクページ(当サイト)</a>
-        <a className="link-img" href="https://syosyo.info"><div></div></a>
+        <a className="link-txt" href="https://syosyo.info" target="_blank" rel="noopener noreferrer">
+        <Image
+                    className="syosyo-info"
+                    src="/img/syosyo.info.png"
+                    alt="syosyo.info site"
+                    width={5140}
+                    height={3132}
+                    priority
+                  />
+        </a>
       </div>
       <div className="link-contents fade-in">
         <a className="link-txt" href="https://note.com/syosyo_" target="_blank" rel="noopener noreferrer">しょしょのnote</a>
